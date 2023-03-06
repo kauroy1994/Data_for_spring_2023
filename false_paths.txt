@@ -1,0 +1,77 @@
+volvo IsA car CapableOf slow_down
+hornswoggle RelatedTo woggle RelatedTo neckerchief
+dibs Synonym bagsy Synonym shotgun
+negative Antonym affirmative SimilarTo affirmative
+fishing Synonym fishing Causes catching_fish
+mum IsA secrecy
+dead_red RelatedTo four_seam_fastball RelatedTo fastball
+lexus IsA ford Synonym ford
+lefthanded FormOf left_handed Synonym left_handed
+dome Synonym dome IsA roof
+wine IsA alcoholic_beverage IsA artificial_substance
+retrograde_motion HasContext astronomy IsA physics
+no_end RelatedTo endlessly
+handicapped SimilarTo unfit RelatedTo unhealthy
+naked Synonym defenseless
+zoroastrianism IsA religion
+line RelatedTo straight Antonym straight
+fred FormOf fred HasProperty happy
+ultimate_frisbee IsA field_game IsA outdoor_game
+wiring_harness RelatedTo vehicle CapableOf receive_damage
+dollars Synonym dollars IsA not_euros
+shakti RelatedTo shakti RelatedTo parvati
+airstone RelatedTo stone MannerOf kill
+cds Synonym cds AtLocation drawer
+all RelatedTo everyone HasProperty afraid_of
+tuileries RelatedTo france IsA country
+irr IsA irr HasContext galaxy
+rhetoric Synonym palaver IsA nonsense
+gipsy FormOf gipsy FormOf gypsy
+barney RelatedTo norfolk
+judge CausesDesire judge HasSubevent alienate
+grizzly IsA bear RelatedTo grizzly
+despite IsA disregard
+god Desires god IsA imaginary_friend_for_grown_ups
+people HasProperty stupid Synonym stupid
+penal Synonym punishable SimilarTo illegal
+beauty IsA skin_deep SimilarTo superficial
+barbie EtymologicallyDerivedFrom barbie HasContext derogatory
+stonewall MannerOf obstruct
+get_paid HasSubevent have_money_to_spend
+thoroughfare IsA road Synonym road
+first_lady FormOf first_lady IsA wife
+gas RelatedTo oil RelatedTo cars
+pole IsA opinion IsA belief
+social Antonym antisocial SimilarTo unsociable
+costs FormOf cost IsA outgo
+cowboys RelatedTo king RelatedTo royal
+pop Synonym pop HasContext baseball
+tyrannosaurus Synonym tyrannosaurus
+difficult DistinctFrom easy SimilarTo smooth
+fender Synonym fender IsA guard
+cap IsA cap Synonym cap
+power_hitter HasContext baseball IsA sport
+reluctance IsA unwillingness Synonym unwillingness
+combustion IsA combustion IsA tumult
+leakproof RelatedTo dry_cell RelatedTo wet_cell
+heeler RelatedTo hind IsA grouper
+look_at HasSubevent look_at Synonym consider
+thought_bubble RelatedTo ill NotDesires ill
+necessity IsA necessity Synonym necessity
+cablecar DerivedFrom car AtLocation freeway
+leakproof RelatedTo dry_cell RelatedTo wet_cell
+kingdom_come RelatedTo heaven
+despite RelatedTo despite IsA disregard
+rests FormOf rest HasPrerequisite lie_down
+older_adult Synonym senior_citizen RelatedTo fifty
+bad_breath Synonym bad_breath Synonym bad_breath
+musk IsA secretion
+mandapa RelatedTo hindu
+stranger Synonym stranger NotCapableOf know
+third_month IsA autumn Synonym fall
+assist Synonym assist HasContext basketball
+way Synonym way IsA artifact
+unafraid Synonym unafraid_p SimilarTo unfrightened
+norwegians Synonym norwegians FormOf norwegian
+cabbage Synonym cabbage IsA crucifer
+listen_to HasPrerequisite listen_to HasSubevent listen_to

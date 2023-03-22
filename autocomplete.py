@@ -31,7 +31,9 @@ class Dataloader(object):
 
         self.context_size = len(list(text))
         X, Y  = [],[]
-        for t in rangE(self.context_size-1):
+
+        print ('Loading the data ...')
+        for t in tqdm(range(self.context_size-1)):
 
             x, y = tokenizer.encode(text[:t+1]), tokenizer.encode(text[t+1])
             X += [x]; Y += [y[0]]
@@ -70,7 +72,7 @@ class ffn_complete(nn.Module):
         self.head = nn.Linear(self.h_size, self.n_tokens)
 
     def forward(self,
-                token_embeddings):
+                token_encodings):
 
         n_tokens = len(token_encodings)
         token_encodings = torch.tensor(token_encodings)
@@ -113,8 +115,10 @@ class ffn_complete(nn.Module):
             for item in batch:
 
                 x, y = item[0], item[1]
-                logits = self(x)
-                targets = [0.0]*self.n_tokens; targets[y] = 1.0
+                #logits = self(x)
+                logits = torch.unsqueeze(self(x),0)
+                #targets = [0.0]*self.n_tokens; targets[y] = 1.0
+                targets = [y]
                 targets = torch.tensor(targets)
                 batch_loss += loss(logits, targets)
 

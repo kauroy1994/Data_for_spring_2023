@@ -127,3 +127,6 @@ class ffn_complete(nn.Module):
             batch_loss.backward()
             optimizer.step()
             optimizer.zero_grad()
+            name = 'model.pt'
+            path = F"./{name}"
+            torch.save(self.state_dict(),path)
